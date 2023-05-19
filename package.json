@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^3",
+    "rxjs": "^7.8.0",
+    "todo-parser": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.21"
+  }
+}
