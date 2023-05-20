@@ -16,8 +16,6 @@ let currentCard = cards[cardIndex];
 
 screen.append(currentCard.front);
 
-
-
 menuBar.setItems({
   'New': {
     keys: ['n', 'N'],

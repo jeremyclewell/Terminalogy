@@ -63,7 +63,6 @@ const loadCards = (filePath: string) => {
   });
 }
 
-// function that accepts an array of cards and writes them to a fileas a JSON object
 export function writeCards(cards: Card[]) {
   const cardsJSON = JSON.stringify({cards}, null, 2)
   fs.writeFileSync('./cards.json', cardsJSON);
